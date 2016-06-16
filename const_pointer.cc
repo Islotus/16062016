@@ -33,7 +33,10 @@ int main()
 	num = 100;  //变量的值可以不通过常量指针来改变。
 	cout << "num = 100 " << endl;
 	cout << "num值变后为：" << endl;
-	
+
+	cout << "此时*ip的值为：" << endl;
+	cout << *ip << endl;
+
 	return 0;
 
 }
